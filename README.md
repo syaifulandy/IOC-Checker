@@ -1,5 +1,3 @@
----
-
 # 📌 VirusTotal IP Reputation Checker (Batch Scanner)
 
 Simple Bash script untuk mengecek reputasi IP address menggunakan **VirusTotal API v3**.
