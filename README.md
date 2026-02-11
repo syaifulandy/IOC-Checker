@@ -63,13 +63,6 @@ brew install jq
 
 ### 1. Clone Repository
 
-```bash
-git clone https://github.com/yourusername/virustotal-ip-checker.git
-cd virustotal-ip-checker
-```
-
----
-
 ### 2. Add Your VirusTotal API Key
 
 Buat file `apikey.txt`:
@@ -77,15 +70,6 @@ Buat file `apikey.txt`:
 ```bash
 echo "YOUR_API_KEY_HERE" > apikey.txt
 ```
-
-⚠️ Jangan pernah upload API key ke GitHub publik.
-
-Tambahkan ke `.gitignore`:
-
-```
-apikey.txt
-```
-
 ---
 
 ### 3. Add IP List
@@ -93,7 +77,6 @@ apikey.txt
 Edit file `listipcek.txt`:
 
 ```txt
-91.132.144.59
 8.8.8.8
 1.1.1.1
 ```
